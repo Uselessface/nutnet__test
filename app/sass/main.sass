@@ -1,0 +1,405 @@
+body
+	font-family: 'Roboto', sans-serif
+	font-size: 14px
+	line-height: 1.2
+	font-weight: 300
+section
+	width: 100%
+	margin: 0 auto
+.logo
+	&__img
+	object-fit: cover
+	&__text
+	vertical-align: middle
+	font-weight: 100
+	font-size: 2.45em
+	color: #2497a4
+.title
+	font-family: 'Playfair Display', serif
+	font-size: 1.571em
+	color: #75737b
+	text-transform: uppercase
+.line
+	background-color:#c6c4c9
+	width: 50px
+	height: 2px
+	margin: 1.75em auto 0em
+.description
+	font-size: 1em
+	font-weight: 300
+	margin-top: 1.875em
+	color: #c6c4c9
+	line-height: 1.714
+.button
+	display: inline-block
+	margin-top: 2.357em
+	color: #19e3d5
+	padding: 0.714em 0.714em
+	font-size: 1.1em
+	border: 1px solid #19e3d5
+	border-radius: 2px
+	text-decoration: none
+	text-transform: uppercase
+	font-family: 'Hammersmith One', sans-serif
+.w-100
+	width: 100%
+.header-aboutus
+	padding: 20px 0px 14.857em
+	background: linear-gradient(to right, rgba(58, 49, 92,0.8 ),  rgba(58, 49, 92,0.8 )), url('../images/header__bg.png')
+	background-repeat: no-repeat
+	background-position: 50% 0%
+	background-size: cover
+	.menu
+		display: inline-flex
+		&__item
+			margin-left: 1.429em
+			display: inline-block
+			&__text
+				font-size: 0.97em
+				font-weight: 900
+				color: #fff
+				text-transform: uppercase
+				text-decoration: none
+				&:hover
+					color: #0cc5bc
+	.header-aboutus__container
+		margin-top: 10.313em	
+		text-align: center
+		.title
+			text-transform: none
+			font-size: 2.55em
+			color: #fff
+		.line
+			background-color: #00e0d0
+		>.description
+			font-size: 1.1em
+			color: #fff
+.story
+	padding: 5.000em 0
+	&__image
+		display: flex
+		justify-content: center
+.watch
+	background: linear-gradient(to right, rgba(58, 49, 92,0.8 ),  rgba(58, 49, 92,0.8 )), url('../images/watch__bg.png')
+	background-repeat: no-repeat
+	background-position: 50% 0%
+	background-size: cover
+	.no-pad
+		padding: 0px
+	&__container
+		padding: 14.429em 0 14.000em
+		text-align: center
+		color: #fff
+		.play__img
+			cursor: pointer
+		.play__text
+			text-transform: uppercase
+			font-weight: 900
+			margin-top: 2.429em
+			font-size: 1.143em
+			cursor: pointer
+.expertise
+	padding: 5em 0
+	.w-100_background
+		height: 1px
+		background-color: #ebebeb
+		margin: 2.857em 0px
+	.text-container
+		text-align: center
+	.expertise-list
+		margin-top: 5.714em
+		&__item
+			display: flex
+			flex-direction: column
+			align-items: flex-start
+			text-align: center
+			.item__image
+				display: flex
+				align-self: center
+				width: 50px
+				height: 50px
+				&_bg-monitor
+					width: 49px
+					height: 50px
+					background: url('../images/css_sprites.png') -69px -0px
+				&_bg-brush
+					width: 50px
+					height: 49px
+					background: url('../images/css_sprites.png') -118px -0
+					background-repeat: no-repeat
+				&_bg-phone
+					width: 28px
+					height: 50px
+					background: url('../images/css_sprites.png') -0 -0
+				&_bg-search
+					width: 50px
+					height: 50px
+					background: url('../images/css_sprites.png') -168px -0
+				&_bg-game
+					width: 41px
+					height: 50px
+					background: url('../images/css_sprites.png') -28px -0
+				&_bg-heart
+					width: 50px
+					height: 46px
+					background: url('../images/css_sprites.png') -218px -0	
+
+			.item__info
+				margin-top: 2.857em
+				justify-self: flex-start
+				&__header
+					font-weight: 900
+					text-transform: uppercase
+				&__decription
+					margin-top: 1.786em
+
+.team
+	padding: 5em 0px
+	background: linear-gradient(to right, rgba(58, 49, 92,0.8 ),  rgba(58, 49, 92,0.8 )), url('../images/team__bg.png')
+	background-repeat: no-repeat
+	background-position: 50% 0%
+	background-size: cover
+	.text-container
+		text-align: center
+		.team__title
+			color: #ebebeb
+	.team-list
+		margin-top: 3.143em
+		.team__member
+			display: flex
+			flex-direction: column
+			align-items: center
+			justify-content: flex-start
+			padding-bottom: 20px
+			border: 1px solid rgba(255,255,255,0.502)
+			height: 308px
+			&__photo
+				width: 100%
+				height: 230px
+				background-color: #fff
+				overflow: hidden
+				>img
+					width: 100%
+					height: 100%
+					object-fit: contain
+					object-position: top center
+			&__person
+				text-align: center
+				margin-top: 20px
+				.person__name
+					font-weight: 900
+					text-transform: uppercase
+					color: #fff
+				.person__job
+					margin-top: 10px
+					font-size: 0.929em
+					font-weight: 300
+					text-transform: uppercase
+					color: rgba(255, 255, 255, 0.702)
+					line-height: 1.692			
+	.be-part
+		margin-top: 5em
+		text-align: center
+		&__text
+  			color: rgb(243, 243, 243)
+
+.work
+	padding: 5em 0px
+	.tiles
+		margin-top: 5em
+	&__all-projects
+		color: #cdcccf
+		cursor: pointer
+		.chevron
+			font-size: 1.3em
+			vertical-align: baseline
+	&__button
+		margin-top: 5em
+.testimonials
+	padding: 5em 0px
+	background: linear-gradient(to right, rgba(58, 49, 92,0.8 ),  rgba(58, 49, 92,0.8 )), url('../images/testimonials__bg.png')
+	background-repeat: no-repeat
+	background-position: 50% 0%
+	background-size: cover
+	&__title
+		font-size: 7.143em
+		color: #fff
+	&__text
+		display: none
+	.active-text
+		display: block
+	&__title_sub
+		margin-top: 2.857em
+		text-transform: none
+		color: rgba(255, 255, 255, 0.851)
+		text-align: center
+		font-size: 1.1em
+	.person
+		margin-top: 3.571em
+		text-align: center
+		&__name
+			font-weight: 900
+			text-transform: uppercase
+			color: #fff
+		&__job
+			margin-top: 10px
+			font-size: 0.929em
+			font-weight: 300
+			text-transform: uppercase
+			color: rgba(255, 255, 255, 0.702)
+			line-height: 1.692	
+	.person-list
+		margin-top: 3.214em
+		&__person
+			height: 45px
+			width: 45px
+			overflow: hidden
+			border-radius: 50%
+			cursor: pointer
+			.person__image
+				width: 100%
+				object-fit: contain
+				object-position: center
+		.active
+			width: 70px
+			height: 70px
+.form-section
+	padding: 5em 0px
+	&__title
+		text-align: center
+	.main-form
+		flex-direction: column
+		margin-top: 2.5em
+		.input
+			padding: 1.1em 1.429em
+			width: 100%
+			border: 1px solid rgba(65, 61, 75, 0.502)
+			color: rgba(65, 61, 75, 0.502)
+			line-height: 1.2
+		.input_margin
+			margin-top: 1.429em
+		&__button
+			max-width: 120px
+			width: 100%
+			background: transparent
+.footer-section
+	padding: 5em 0px
+	background: linear-gradient(to right, rgba(58, 49, 92,0.8 ),  rgba(58, 49, 92,0.8 )), url('../images/footer__bg.png')
+	background-repeat: no-repeat
+	background-position: 50% 0%
+	background-size: cover
+	color: #fff
+	.logo__text
+		color: #2497a4
+	.no-pad
+		padding-left: 0px
+	.footer__text
+		margin-top: 2.143em
+	.footer-menu__menu
+		margin-top: 5.714em
+		display: flex
+		text-transform: uppercase
+		.footer-menu__item
+			&_margin
+				margin-left: 2.143em
+			.item__text
+				text-decoration: none
+				color: #fff
+	.footer__header
+		margin-top: 1.429em
+		font-weight: 900
+		text-transform: uppercase
+	.studio__location
+		padding-right: 50px
+		margin-top: 2.743em
+		line-height: 1.857
+		.location__text
+			margin-left: 13px
+	.studio__contact
+		margin-top: 1.786em	
+		.contact__number
+			margin-left: 13px
+	.social__container
+		.subscribe__form
+			display: flex
+			align-items: flex-start
+			margin-top: 2.943em
+			.subscribe__input
+				padding: 1.1em
+				border: 1px solid rgba(255,255,255,0.502)
+				width: 209px
+				height: 43px
+				background: transparent
+				color: #b8b5c2
+			.subscribe__button
+				margin-left: 15px
+				justify-content: center
+				align-items: center
+				display: inline-flex
+				background-color: rgba(255, 255, 255,0.502)
+				width: 68px
+				height: 43px
+		.social__media
+			display: flex
+			margin-top: 2em
+			.social__item
+				border: 1px solid #fff
+				border-radius: 50%
+				width: 33px
+				height: 33px
+				display: flex
+				align-items: center
+				justify-content: center
+				margin-right: 10px
+				&_fb
+					width: 7px
+					height: 15px
+					background: url('../images/social-media-sprites.png') -0px -0px
+				&_tw
+					width: 14px
+					height: 11px
+					background: url('../images/social-media-sprites.png') -7px -0px
+				&_drib
+					width: 16px
+					height: 16px
+					background: url('../images/social-media-sprites.png') -51px -0px
+				&_inst
+					width: 15px
+					height: 15px
+					background: url('../images/social-media-sprites.png') -36px -0px
+				&_gplus
+					width: 15px
+					height: 14px
+					background: url('../images/social-media-sprites.png') -21px -0px
+				&_yout
+					width: 17px
+					height: 11px
+					background: url('../images/social-media-sprites.png') -67px -0px
+		.copyright
+			margin-top: 5em
+			text-align: right
+.popup
+	position: fixed
+	width: 100%
+	height: 100%
+	background-color: rgba(0, 0, 0, 0.8)
+	top: 0
+	left: 0
+	display: none
+	&__body
+		position: relative
+		padding-top: 35px
+		padding-bottom: 57.25%
+		height: 0
+		margin-bottom: 16px
+		overflow: hidden
+		> iframe,embed,object
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+
+@media screen and ( max-width: 684px)
+	.mobile_center
+		text-align: center				
